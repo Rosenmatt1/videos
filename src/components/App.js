@@ -8,8 +8,6 @@ class App extends React.Component {
     data: []
   }
 
-  
-
   fetchMovies = () => {
     return fetch(`https://www.googleapis.com/youtube/v3/${this.state.term}`
     )

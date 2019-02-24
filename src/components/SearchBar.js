@@ -1,4 +1,5 @@
 import React from 'react'
+import GoogleAuth from 'GoogleAuth.js'
 
 class SearchBar extends React.Component {
   // state = {
@@ -33,6 +34,7 @@ class SearchBar extends React.Component {
               onChange={this.updateSearch}
               >
               </input>
+              <GoogleAuth />
           </div>
         </form>
       </div>
